@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="logo/png/webicon.png">
+  <title>Virtual Meeting</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+
+  <h1>Doctors</h1>
+
+  <div class="container">
+    <input type="radio" name="dot" id="one" />
+    <input type="radio" name="dot" id="two" />
+    <div class="main-card">
+      <div class="cards">
+
+        <div class="card">
+          <div class="content">
+            <div class="img">
+              <img src="images/doctor2.png" alt="" />
+            </div>
+            <div class="details">
+              <div class="name">Dr. Rajesh Sharma</div>
+              <div class="job">Cardiologist</div>
+            </div>
+            <div class="disc">
+              <p>Highly skilled in diagnosing and treating heart conditions, Dr. Sharma is dedicated to improving
+                cardiovascular health through innovative interventions.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="content">
+            <div class="img">
+              <img src="images/doctor1.jpg" alt="" />
+            </div>
+            <div class="details">
+              <div class="name">Dr. Priya Gupta </div>
+              <div class="job">Gynecologist</div>
+            </div>
+            <div class="disc">
+              <p>Specializing in women's reproductive health, Dr. Gupta provides personalized care and promotes wellness
+                through comprehensive obstetric and gynecological services.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="content">
+            <div class="img">
+              <img src="images/doctor3.png" alt="" />
+            </div>
+            <div class="details">
+              <div class="name">Dr. Suresh Kumar</div>
+              <div class="job">Oncologist</div>
+            </div>
+            <div class="disc">
+              <p>A renowned cancer specialist, Dr. Kumar combines cutting-edge therapies with compassionate care to help
+                patients fight and overcome cancer.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cards">
+        <div class="card">
+          <div class="content">
+            <div class="img">
+              <img src="images/doctor5.jpg" alt="" />
+            </div>
+            <div class="details">
+              <div class="name">Dr. Deepika Mishra</div>
+              <div class="job">Psychiatrist</div>
+            </div>
+            <div class="disc">
+              <p>Specializing in mental health, Dr. Mishra provides expert diagnosis and personalized therapies to help
+                patients lead fulfilling lives and achieve emotional well-being.</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="content">
+            <div class="img">
+              <img src="images/doctor4.jpg" alt="" />
+            </div>
+            <div class="details">
+              <div class="name">Dr. Arjun Singh</div>
+              <div class="job"> Orthopedic Surgeon</div>
+            </div>
+            <div class="disc">
+              <p>Known for his surgical skills, Dr. Singh focuses on musculoskeletal conditions, offering effective
+                treatments and restoring mobility for patients.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="content">
+            <div class="img">
+              <img src="images/doctor6.png" alt="" />
+            </div>
+            <div class="details">
+              <div class="name">Dr. Anika Patel</div>
+              <div class="job">Web Devloper</div>
+            </div>
+            <div class="disc">
+              <p>With expertise in neurological disorders, Dr. Patel employs advanced techniques to provide
+                comprehensive care and improve patients' quality of life.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="button">
+      <label for="one" class="active one"></label>
+      <label for="two" class="two"></label>
+    </div>
+  </div>
+
+
+
+  <!-- appointment form -->
+  <section class="form">
+    <h1>Schedule Appointment</h1>
+    <div class="form-container">
+      <form action="/appointment" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone" name="phone" required>
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" placeholder="select date" required>
+
+        <label for="date">Time:</label>
+        <input type="time" name="" id="">
+
+        <label for="message">Message (optional):</label>
+        <textarea id="message" name="message"></textarea>
+
+        <div class="payment-button">
+
+          <!-- <a href="D:\HackUnicorn\onlineAppointment\payment.html">Pay Now</a> -->
+          <a href="payment.html">Pay Now</a>
+        </div>
+
+      </form>
+
+    </div>
+
+
+    <script>
+      function makePayment() {
+        // Replace the following code with your payment processing logic
+        alert("Redirecting to payment gateway...");
+        // Here, you would typically integrate with a payment gateway to process the payment
+        // and handle the payment confirmation asynchronously
+      }
+    </script>
+  </section>
+
+
+</body>
+
+</html>
