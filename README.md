@@ -1,4 +1,4 @@
-# Docsy
+# Docsy - Hack Unicorn
 
 Docsy's source code is housed in this repository. Find hospitals, schedule appointments, find medical stores, and read relevant articles. Take advantage of virtual appointments and safe online payments. Docsy is the first step in your seamless healthcare journey! It is created with [HTML, CSS, and JAVASCRIPT].
 
