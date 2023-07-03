@@ -12,7 +12,7 @@ Docsy's source code is housed in this repository. Find hospitals, schedule appoi
 ## Installation
 
 The website should now be available at 
-https://vermaharsha.github.io/Docsy/
+https://vermaharsha.github.io/Docsy-HackUnicorn/
 
 
 ## Usage
