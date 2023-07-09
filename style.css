@@ -721,7 +721,7 @@ p {
   }
 
   .header .navbar a {
-    color: black;
+    color: #fff;
     display: block;
     margin: 1.5rem;
     padding: .5rem;
