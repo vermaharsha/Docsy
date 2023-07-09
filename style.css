@@ -48,7 +48,7 @@ html {
   font-weight: bolder;
   border: none;
   outline: none;
-  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  background: #002289;
   color: white;
   cursor: pointer;
   padding: 10px;
