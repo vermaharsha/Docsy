@@ -682,21 +682,6 @@ p {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media only screen and (max-width: 991px) {
   html {
     font-size: 56.25%;
@@ -726,9 +711,9 @@ p {
     position: absolute;
     top: 100%;
     right: -100%;
-    background: var(--primary);
+    background: #00000099;
     width: 30rem;
-    height: calc(100vh - 9.5rem);
+    
   }
 
   .header .navbar.active {
@@ -756,11 +741,6 @@ p {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 10px;
   }
-
-
-
-
-
 
   .contact-container {
     margin: 40px 0;
