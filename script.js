@@ -19,7 +19,8 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
-//=============================================================================
+
+//============================================================================
 
 // navigation bar 
 let navbar = document.querySelector('.navbar');
