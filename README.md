@@ -1,4 +1,4 @@
-# Docsy-HackUnicorn
+# Docsy
 
 Docsy's source code is housed in this repository. Find hospitals, schedule appointments, find medical stores, and read relevant articles. Take advantage of virtual appointments and safe online payments. Docsy is the first step in your seamless healthcare journey! It is created with [HTML, CSS, and JAVASCRIPT].
 
@@ -12,7 +12,7 @@ Docsy's source code is housed in this repository. Find hospitals, schedule appoi
 ## Installation
 
 The website should now be available at 
-https://vermaharsha.github.io/Docsy-HackUnicorn/
+https://vermaharsha.github.io/Docsy/
 
 
 ## Usage
