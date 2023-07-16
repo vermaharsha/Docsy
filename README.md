@@ -11,8 +11,7 @@ Docsy's source code is housed in this repository. Find hospitals, schedule appoi
 
 ## Installation
 
-The website should now be available at 
-https://vermaharsha.github.io/Docsy/
+The website should now be available at [Docsy](https://vermaharsha.github.io/Docsy/).
 
 
 ## Usage
@@ -31,6 +30,3 @@ Here's a glimpse of the Docsy website:
 
 ![ss](https://github.com/vermaharsha/Docsy-HackUnicorn/assets/111423734/18e3b584-2059-495e-a5ae-4955f7235c2e)
 
-For a fully interactive experience, please visit [Docsy Website](https://vermaharsha.github.io/Docsy/).
-
-Feel free to explore the website and discover the features and information it offers.
